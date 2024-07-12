@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:hover {
+  background-color: #646cff;
+}
+
+button {
+  background-color: rgb(0, 115, 156);
+  padding: 10px;
+}
+
+.chat-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(213, 213, 213);
+  background-color: rgb(40, 52, 42);
+  gap: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  right: 50%;
+  right: 0px;
+  width: 600px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transform: translateX(-50%);
+}
+
+p {
+  font-size: 12px;
+}
+
+.t-username {
+  color: aqua;
+  margin-left: 5px;
+}
+
+.t-message {
+  color: #b0c6d9;
+  justify-content: left;
+  margin-left: 5px;
+}
+
+.div-message {
+  background-color: rgb(12, 42, 42);
+  width: 230px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  border-style: solid;
+  border-color: #213e6b;
+  align-items: center;
+  margin: 5px;
+}
+
+.div-chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-chat-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+} */
+
+.scrollbar {
+  flex-direction: column;
+  overflow-y: scroll;
+  background-color: #098db134;
+}
+
+.container {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.emoji-picker-wrapper {
+  position: fixed;
+  top: 10px;
+  /* Atur sesuai kebutuhan */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  /* Agar berada di atas elemen lainnya */
+}
